@@ -1,0 +1,32 @@
+.columna {
+	border:1px solid #666;
+	background-color: #999;
+}
+
+.subcolumna {
+	border: 1px solid #aaa;
+	background-color: #C0C0C0
+}
+input[type=submit]{
+background linear-gradient(#F00003, #FF7840);
+border 0;
+color black;
+opacity 0.8;
+cursor pointer;
+border-radius 2px;
+margin-bottom 0;
+text-decoration-color blue;	
+}
+input[type=submit]hover{
+	opacity 1;
+
+}
+input[type=submit]active{
+	transform scale(0.95);
+}
+@media (max-width 40px){
+	form{
+		width 5%;
+	}
+
+}
