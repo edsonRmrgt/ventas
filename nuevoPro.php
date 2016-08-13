@@ -4,7 +4,8 @@ include_once('librerias/cabecera.php');
 
 $sql="insert into productos(NombreProducto, descripcion, PrecioEntrada, PrecioSalida, Id_Categoria, CantidadPorUnidad) values('";
 $sql.=$_POST['producto']."','".$_POST['descripcion']."','".$_POST['compra']."','".$_POST['venta'];
-$sql.="','".$_POST['categoria']."','".$_POST['cantidad']."')";
+	$sql.=$_POST['producto']."','".$_POST['descripcion']."','".$_POST['compra']."','".$_POST['venta'];
+	$sql.="','".$_POST['categoria']."','".$_POST['cantidad']."')";
 
 
 if ($conexion->query($sql)) {

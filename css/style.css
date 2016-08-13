@@ -1,32 +1,55 @@
-.columna {
-	border:1px solid #666;
-	background-color: #999;
+
+body {
+	background: #303A5F;
 }
 
-.subcolumna {
-	border: 1px solid #aaa;
-	background-color: #C0C0C0
+a:hover {
+	text-decoration: none;
 }
-input[type=submit]{
-background linear-gradient(#F00003, #FF7840);
-border 0;
-color black;
-opacity 0.8;
-cursor pointer;
-border-radius 2px;
-margin-bottom 0;
-text-decoration-color blue;	
+.list-group-item{
+	background-color: #303A5F;
+	border: 0px;
 }
-input[type=submit]hover{
-	opacity 1;
-
+.buscar{
+	font-size: 17px;
+	width: 500px;
+	height: 50px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	background: #50597b;
+	color: #fff;
+	border: solid 1px #1f253d;
+	border-radius: 5px;
 }
-input[type=submit]active{
-	transform scale(0.95);
+#fe{
+	color: #ffffff;
 }
-@media (max-width 40px){
-	form{
-		width 5%;
-	}
-
+label{
+	color: #000000;
+}
+td{
+	color: #00AF7C;
+}
+.password{
+	width: 260px;
+	height: 50px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	background: #50597b;
+	color: #fff;
+	border: solid 1px #1f253d;
+	border-radius: 5px;
+}
+input[type=text] input[type=password]::-webkit-input-placeholder {
+	color: #fff;
+}
+input[type=text]:focus {
+	outline: none;
+	border: 1px solid #11a8ab;
+}
+.titulo {
+	line-height: 60px;
+	text-align: center;
 }
